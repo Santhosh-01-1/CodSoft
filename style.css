@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background:#0d0d0d;
+  color:#e4e4e4;
+}
+
+.navbar{
+  width:100%;
+  padding:20px 50px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#111;
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+
+.logo{
+  font-size:26px;
+  font-weight:700;
+}
+
+.logo span{
+  color:#00f5ff;
+}
+
+.navbar nav a{
+  margin:0 15px;
+  text-decoration:none;
+  color:#ddd;
+  font-size:15px;
+  transition:.3s;
+}
+
+.navbar nav a:hover{
+  color:#00f5ff;
+}
+
+.resume-btn{
+  background:#00f5ff;
+  color:#000;
+  padding:10px 16px;
+  border-radius:6px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.hero{
+  height:70vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:linear-gradient(135deg,#0b0b0b,#161616);
+}
+
+.hero h1{
+  font-size:50px;
+  font-weight:700;
+}
+
+.hero h1 span{
+  color:#00f5ff;
+}
+
+.hero p{
+  margin-top:10px;
+  font-size:18px;
+  color:#ccc;
+}
+
+.hire-btn{
+  margin-top:20px;
+  padding:10px 22px;
+  text-decoration:none;
+  background:#00f5ff;
+  color:#000;
+  border-radius:6px;
+  font-weight:600;
+}
+
+.section{
+  padding:60px 50px;
+}
+
+.title{
+  font-size:32px;
+  margin-bottom:20px;
+  color:#00f5ff;
+}
+
+.text{
+  max-width:700px;
+  line-height:1.7;
+  color:#cfcfcf;
+}
+
+.skills-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+  gap:15px;
+  margin-top:20px;
+}
+
+.skills-grid span{
+  padding:10px 15px;
+  background:#1a1a1a;
+  border:1px solid #222;
+  border-radius:6px;
+  text-align:center;
+}
+
+.project-card{
+  background:#141414;
+  padding:25px;
+  border-radius:8px;
+  border:1px solid #1f1f1f;
+  margin-top:20px;
+}
+
+.project-card h3{
+  color:#00f5ff;
+}
+
+.project-card .year{
+  margin-top:10px;
+  color:#888;
+}
+
+.contact-box{
+  background:#141414;
+  padding:20px;
+  border-radius:8px;
+  width:max-content;
+  border:1px solid #1f1f1f;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  margin-top:30px;
+  background:#0a0a0a;
+  color:#777;
+}
